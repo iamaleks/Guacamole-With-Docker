@@ -8,7 +8,7 @@ This repository contains a Docker Compose script that will setup Guacamole with 
 
 ```
 $ git clone https://github.com/iamaleks/Guacamole-With-Docker.git
-$ cd cd Guacamole-With-Docker/
+$ cd Guacamole-With-Docker/
 ```
 
 ## Add new TLS certificate (this command will generate a self signed certificate, you can add your own)
