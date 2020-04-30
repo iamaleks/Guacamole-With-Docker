@@ -11,7 +11,7 @@ $ git clone https://github.com/iamaleks/Guacamole-With-Docker.git
 $ cd cd Guacamole-With-Docker/
 ```
 
-## Add new TLS certificate (this command will generate a self signed, you can add your own)
+## Add new TLS certificate (this command will generate a self signed certificate, you can add your own)
 
 ```
 $ openssl req -new -newkey rsa:2048 -x509 -sha256 -days 365 -nodes -out files/reverseproxy/ssl/server.crt -keyout files/reverseproxy/ssl/server.key
